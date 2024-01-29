@@ -1,8 +1,13 @@
-
+/* navbar style start */
+body {
+    /* margin-left: 120px;
+    margin-right: 120px; */
+    max-width: 1440px;
+    margin: 100px auto;
+}
 
 .navbar {
-    margin-left: 120px;
-    margin-right: 120px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,8 +35,57 @@ ul li img {
     height: 20px;
 }
 
+/* navbar style closed */
+
+/* camera section style start */
+.container-camera {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.title {
+    width: 582px;
+    height: 133px;
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+
+}
+
+.section-description {
+    width: 505px;
+    height: 60px;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-pri {
+    border-radius: 41px;
+    background: #E02C6D;
+    padding: 10px 24px;
+    border: none;
+    color: white;
+}
+
+.main-camera {
+    width: 440px;
+    height: 414px;
+    flex-shrink: 0;
+    position: relative;
+    left: 20px;
+    top: 40px;
+}
 
 
 
+.bacground-image {
+    background-image: url('resourse/images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    width: 475px;
+    height: 475px;
 
-
+}
+/* camera section closed */
