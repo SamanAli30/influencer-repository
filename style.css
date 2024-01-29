@@ -185,6 +185,7 @@ hr {
     font-size: 38px;
     font-weight: 700;
     line-height: 60px;
+    margin-right: 120px;
 
 }
 
@@ -206,7 +207,33 @@ hr {
     background: #E02C6D;
     gap: 8px;
     border: none;
-    color:#fff;
+    color: #fff;
 }
+
 /* featured style closed */
 /* footer style start */
+footer{
+  
+}
+.background-color {
+    padding: 30px;
+    width: 1440px;
+    height: 239px;
+    background: #0A0826;
+    
+}
+.text-part{
+    text-align: center;
+    color: #FFF;
+}
+
+.images img {
+    
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
+
+}
+footer .images{
+    margin-left:600px;
+}
