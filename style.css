@@ -124,7 +124,7 @@ hr {
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap:30px ;
+    gap: 30px;
 }
 
 .item {
@@ -153,9 +153,60 @@ hr {
 
 .item-des {
     width: 196px;
-    color:#787885;
+    color: #787885;
     font-size: 14px;
     font-weight: 700;
     line-height: 143%;
     letter-spacing: 0.252px;
 }
+
+.see {
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    position: relative;
+    left: 1260px;
+    margin-top: 20px;
+    background: none;
+}
+
+/* collection style closed */
+/* featured style start */
+.featured-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.featured-title {
+    color: #0A0826;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px;
+
+}
+
+.featured-description {
+    width: 501px;
+    height: 88px;
+    color: #6C6C6C;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+
+}
+
+.join-now {
+    display: inline-flex;
+    padding: 10px 24px;
+    align-items: flex-start;
+    background: #E02C6D;
+    gap: 8px;
+    border: none;
+    color:#fff;
+}
+/* featured style closed */
+/* footer style start */
