@@ -2,8 +2,10 @@
 body {
     /* margin-left: 120px;
     margin-right: 120px; */
-    max-width: 1440px;
+    max-width: 1480px;
     margin: 100px auto;
+    border: 1px solid sandybrown;
+    padding: 20px;
 }
 
 .navbar {
@@ -86,6 +88,28 @@ ul li img {
     background-repeat: no-repeat;
     width: 475px;
     height: 475px;
+    margin-bottom: 100px;
 
 }
+
+hr {
+    width: 1110px;
+    height: 1px;
+    color: white;
+}
+
 /* camera section closed */
+/* sponsored style start */
+.sponsored-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+hr {
+    width: 1110px;
+    height: 0.0000000000011px;
+    background-color: white;
+
+}
